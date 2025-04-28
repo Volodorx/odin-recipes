@@ -1,0 +1,26 @@
+* {
+    font-family: Helvetica;
+    background-color: #1d1128;
+    color: #e5d4ed
+}
+
+a:hover {
+    color: #6d72c3
+}
+
+img {
+    width: 394px;
+    height: auto
+}
+
+.link {
+    border: solid #5941a9 5px;
+    padding-left: 5px;
+    margin: 0 250px;
+    border-radius: 25px
+}
+
+.index {
+    text-align: center;
+    
+}
