@@ -77,3 +77,8 @@ ol {
     padding-top: 10px;
     padding-bottom: 10px
 }
+
+.caption {
+    display: flex;
+    justify-content: space-evenly;
+}
