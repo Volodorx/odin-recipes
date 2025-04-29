@@ -1,11 +1,11 @@
 * {
     font-family: Helvetica;
-    background-color: #1d1128;
-    color: #e5d4ed
+    background-color: #F3D9DC;
+    color: #744253
 }
 
 a:hover {
-    color: #6d72c3
+    color: #C78283
 }
 
 img {
@@ -15,36 +15,65 @@ img {
 }
 
 .link {
-    border: solid #5941a9 5px;
+    border-left: solid #C78283 5px;
+    border-bottom: solid #C78283 5px;
     padding-left: 5px;
     width: 400px;
     margin: 0 auto;
-    border-radius: 25px
 }
+
 
 .index {
     text-align: center;
 }
 
+.index
+h1 {
+    font-size: 65px
+}
+
+.recipe
+h1 {
+    font-size: 50px
+}
+
 ul
 li {
-    border: solid #5941a9 2px;
+    border: solid #744253 2px;
     width: 275px;
     margin: 5px 0px 1px 0px;
     border-radius: 10px;
     padding-top: 3px;
-    padding-left: 5px
+    padding-left: 5px;
+    background-color: #E0C5BC;
 }
 
 ul
 li:hover {
-    background-color: #5941a9
-}
-
-.caption {
-    display: inline;
+    background-color: #744253;
+    color: #F3D9DC
 }
 
 .recipe {
     margin: 30px
+}
+
+ol
+li {
+    border: solid #744253 0px;
+    margin: 5px 0px 1px 0px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 600px;
+    height: auto;
+    background-color: #F3D9DC;
+    color:#744253
+}
+
+ol {
+    background-color: #E0C5BC;
+    width: 640px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px
 }
