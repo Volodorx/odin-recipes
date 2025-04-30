@@ -80,5 +80,11 @@ ol {
 
 .caption {
     display: flex;
-    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
 }
