@@ -1,7 +1,9 @@
-* {
+body {
     font-family: Helvetica;
     background-color: #F3D9DC;
-    color: #744253
+    color: #744253;
+    display: flex;
+    justify-content: center;
 }
 
 a:hover {
@@ -55,7 +57,13 @@ li:hover {
 }
 
 .recipe {
-    margin: 30px
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 20px;
+    border: solid #744253 2px;
+    background: #fff2f4;
+    border-radius: 10px
 }
 
 ol
